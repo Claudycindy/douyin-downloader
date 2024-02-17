@@ -12,7 +12,7 @@
 # 可以设置多个链接, 确保至少一个链接
 # 必选
 link:
-  -  https://www.douyin.com/user/MS4wLjABAAAAKXBBrhzZ3ltDSlyGoDU5HTwyly0vIM9Wzo1CiLuiWGg?modal_id=7229530420990315832
+  -  https://www.douyin.com/collection/7310163965152888844/1
 
 
 # 下载保存位置, 默认当前文件位置
@@ -21,15 +21,15 @@ path: ./Downloaded/
 
 # 是否下载视频中的音乐(True/False), 默认为True
 # 可选
-music: True
+music: False
 
 # 是否下载视频的封面(True/False), 默认为True, 当下载视频时有效
 # 可选
-cover: True
+cover:  False
 
 # 是否下载作者的头像(True/False), 默认为True
 # 可选
-avatar: True
+avatar:  False
 
 # 是否保存获取到的数据(True/False), 默认为True
 # 可选
@@ -60,11 +60,11 @@ mode:
 # 下载作品个数设置
 # 可选
 number:
-  post: 0     # 主页下作品下载个数设置, 默认为0 全部下载
-  like: 5     # 主页下喜欢下载个数设置, 默认为0 全部下载
+  post: 1     # 主页下作品下载个数设置, 默认为0 全部下载
+  like: 1     # 主页下喜欢下载个数设置, 默认为0 全部下载
   allmix: 1   # 主页下合集下载个数设置, 默认为0 全部下载
-  mix: 5      # 单个合集下作品下载个数设置, 默认为0 全部下载
-  music: 5    # 音乐(原声)下作品下载个数设置, 默认为0 全部下载
+  mix: 0      # 单个合集下作品下载个数设置, 默认为0 全部下载
+  music: 1    # 音乐(原声)下作品下载个数设置, 默认为0 全部下载
 
 database: True # 如果不使用数据库, 增量更新将不可用
 
